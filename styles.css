@@ -74,5 +74,7 @@ footer a{
 }
 
 #about div:hover{
-    box-shadow: 12px 12px 2px 1px #f25a2980;
+    box-shadow: 12px 12px 2px 1px #f25a29;
+    color: #e0eff2;
+    text-shadow: -4px 3px 0 black;
 }
