@@ -154,17 +154,18 @@ footer a{
 
 /* Création du commit "Apparition conguration de base" */
 #cocktails>div {
-    position: relative;
-    overflow: hidden;
+    position: relative; /* Position relative pour les div parentes */
+    overflow: hidden; /* Cacher ce qui dépasse */
     margin: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centrage horizontal */
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; /* Disposition en colonne */
     height: 300px;
     border: 3px solid #f25a29;
     box-shadow: 12px 12px 2px 1px #f25a2980;
-    border-radius: 10px;
+    border-radius: 10px; /* Coins arrondis */
+    transition: transform 0.3s ease; /* Effet de transition */
 }
 
 .overlay {
@@ -184,5 +185,4 @@ footer a{
 #cocktails>div:hover .overlay{
     z-index: 1;
     transform: rotate(360deg);
-    top: 0px;
 }
